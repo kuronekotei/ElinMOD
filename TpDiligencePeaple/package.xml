@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+  <title>TpDiligencePeaple</title>
+  <id>tp_diligence_peaple</id>
+  <author>TP@黒猫亭</author>
+  <loadPriority>100</loadPriority>
+  <description>住民が働き者になり、高確率で仕事を2個身に着けます</description>
+</Meta>
