@@ -38,23 +38,27 @@
   <ItemGroup>
     <Reference Include="0Harmony">
       <HintPath>..\core\0Harmony.dll</HintPath>
+      <Private>False</Private>
     </Reference>
-    <Reference Include="BepInEx.Core, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="BepInEx.Core">
       <HintPath>..\core\BepInEx.Core.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="BepInEx.Unity">
       <HintPath>..\core\BepInEx.Unity.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Elin">
       <HintPath>..\Managed\Elin.dll</HintPath>
+      <Private>False</Private>
     </Reference>
-    <Reference Include="Plugins.BaseCore, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="Plugins.BaseCore">
       <HintPath>..\Managed\Plugins.BaseCore.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Reflex">
       <HintPath>..\Managed\Reflex.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -63,21 +67,16 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" />
-    <Reference Include="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine">
+      <HintPath>..\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
       <HintPath>..\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cheat.cs" />
-    <Compile Include="FixDecaySpeed.cs" />
-    <Compile Include="AddScrapToSmelter.cs" />
-    <Compile Include="SuperBackpack.cs" />
-    <Compile Include="RemoveUnhealthyHobby.cs" />
-    <Compile Include="DumpData.cs" />
-    <Compile Include="DiligencePeaple.cs" />
-    <Compile Include="SleepRecipeX10.cs" />
     <Compile Include="Mod_HalloMod.cs" />
     <Compile Include="HalloMod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
