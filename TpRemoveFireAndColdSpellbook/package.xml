@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+  <title>TpRemoveFireAndColdSpellbook</title>
+  <id>tp_remove_fire_and_cold_spellbook</id>
+  <author>TP@黒猫亭</author>
+  <loadPriority>100</loadPriority>
+  <description>ランダム生成される魔法書から、火炎と冷気を取り除きます</description>
+</Meta>
