@@ -10,7 +10,8 @@ using UnityEngine;
 
 namespace TpHugeSturdyBox
 {
-    public class HugeSturdyBox
+	[HarmonyPatch]
+	public class HugeSturdyBox
     {
 	}
 }
