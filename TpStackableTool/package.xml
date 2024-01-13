@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+  <title>TpStackableTool</title>
+  <id>tp_stackable_tool</id>
+  <author>TP@黒猫亭</author>
+  <loadPriority>100</loadPriority>
+  <description>チャージ型ツールの使用回数がスタック可能になります　(聴診器、ロックピック、ブランケット)</description>
+</Meta>
