@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpDiligencePeaple", "TpDili
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpRemoveUnhealthyHobby", "TpRemoveUnhealthyHobby\TpRemoveUnhealthyHobby.csproj", "{0E82C89E-2E91-42A4-8367-E1AE379736B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpHugeShippingContainer", "TpHugeShippingContainer\TpHugeShippingContainer.csproj", "{2505045D-7D22-4E72-92C6-078FB94981AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0E82C89E-2E91-42A4-8367-E1AE379736B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E82C89E-2E91-42A4-8367-E1AE379736B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E82C89E-2E91-42A4-8367-E1AE379736B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2505045D-7D22-4E72-92C6-078FB94981AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2505045D-7D22-4E72-92C6-078FB94981AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2505045D-7D22-4E72-92C6-078FB94981AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2505045D-7D22-4E72-92C6-078FB94981AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+  <title>TpHugeShippingContainer</title>
+  <id>tp_huge_shipping_container</id>
+  <author>TP@黒猫亭</author>
+  <loadPriority>100</loadPriority>
+  <description>出荷箱を極端に大きくします</description>
+</Meta>
