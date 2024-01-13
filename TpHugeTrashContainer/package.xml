@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+  <title>TpHugeTrashContainer</title>
+  <id>tp_huge_trash_container</id>
+  <author>TP@黒猫亭</author>
+  <loadPriority>100</loadPriority>
+  <description>ゴミのコンテナを極端に大きくします　(導入後作成したものに限る)</description>
+</Meta>
