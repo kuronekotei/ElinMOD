@@ -35,21 +35,27 @@
   <ItemGroup>
     <Reference Include="0Harmony">
       <HintPath>..\core\0Harmony.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="BepInEx.Core">
       <HintPath>..\core\BepInEx.Core.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="BepInEx.Unity">
       <HintPath>..\core\BepInEx.Unity.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Elin">
       <HintPath>..\Managed\Elin.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Plugins.BaseCore">
       <HintPath>..\Managed\Plugins.BaseCore.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Reflex">
       <HintPath>..\Managed\Reflex.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -61,9 +67,11 @@
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine">
       <HintPath>..\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>..\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
