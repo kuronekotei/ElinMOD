@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+  <title>TpStackableSpellbook</title>
+  <id>tp_stackable_spellbook</id>
+  <author>TP@黒猫亭</author>
+  <loadPriority>100</loadPriority>
+  <description>魔法書の使用回数がスタック可能になります</description>
+</Meta>
