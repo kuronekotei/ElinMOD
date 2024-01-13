@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpHugeShippingContainer", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpHugeTrashContainer", "TpHugeTrashContainer\TpHugeTrashContainer.csproj", "{0CBA332E-DEAA-4380-B08F-BE65DF9211DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpHugeSturdyBox", "TpHugeSturdyBox\TpHugeSturdyBox.csproj", "{E94DA8FC-8DC4-4D64-AB8D-7C9D6E434018}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{0CBA332E-DEAA-4380-B08F-BE65DF9211DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CBA332E-DEAA-4380-B08F-BE65DF9211DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CBA332E-DEAA-4380-B08F-BE65DF9211DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E94DA8FC-8DC4-4D64-AB8D-7C9D6E434018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E94DA8FC-8DC4-4D64-AB8D-7C9D6E434018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E94DA8FC-8DC4-4D64-AB8D-7C9D6E434018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E94DA8FC-8DC4-4D64-AB8D-7C9D6E434018}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
