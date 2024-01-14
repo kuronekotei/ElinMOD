@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpStackableSpellbook", "TpS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpStackableTool", "TpStackableTool\TpStackableTool.csproj", "{D686E069-BE27-4AE5-9967-BC10C23B04B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpSleepRecipeX10", "TpSleepRecipeX10\TpSleepRecipeX10.csproj", "{FEBAF082-44B4-4F2F-86FF-6346BD8E104E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{D686E069-BE27-4AE5-9967-BC10C23B04B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D686E069-BE27-4AE5-9967-BC10C23B04B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D686E069-BE27-4AE5-9967-BC10C23B04B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEBAF082-44B4-4F2F-86FF-6346BD8E104E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEBAF082-44B4-4F2F-86FF-6346BD8E104E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEBAF082-44B4-4F2F-86FF-6346BD8E104E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEBAF082-44B4-4F2F-86FF-6346BD8E104E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
