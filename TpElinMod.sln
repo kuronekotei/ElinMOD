@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpStackableTool", "TpStacka
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpSleepRecipeX10", "TpSleepRecipeX10\TpSleepRecipeX10.csproj", "{FEBAF082-44B4-4F2F-86FF-6346BD8E104E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpAddScrapToSmelter", "TpAddScrapToSmelter\TpAddScrapToSmelter.csproj", "{2856DFC1-2DCB-4A95-BF64-8F1EB33F640E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{FEBAF082-44B4-4F2F-86FF-6346BD8E104E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEBAF082-44B4-4F2F-86FF-6346BD8E104E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEBAF082-44B4-4F2F-86FF-6346BD8E104E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2856DFC1-2DCB-4A95-BF64-8F1EB33F640E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2856DFC1-2DCB-4A95-BF64-8F1EB33F640E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2856DFC1-2DCB-4A95-BF64-8F1EB33F640E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2856DFC1-2DCB-4A95-BF64-8F1EB33F640E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
