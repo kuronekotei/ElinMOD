@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpSleepRecipeX10", "TpSleep
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpAddScrapToSmelter", "TpAddScrapToSmelter\TpAddScrapToSmelter.csproj", "{2856DFC1-2DCB-4A95-BF64-8F1EB33F640E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpAddGlassToSmelter", "TpAddGlassToSmelter\TpAddGlassToSmelter.csproj", "{13839D49-4F6A-44BA-95C3-BE61D3C29F12}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{2856DFC1-2DCB-4A95-BF64-8F1EB33F640E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2856DFC1-2DCB-4A95-BF64-8F1EB33F640E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2856DFC1-2DCB-4A95-BF64-8F1EB33F640E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13839D49-4F6A-44BA-95C3-BE61D3C29F12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13839D49-4F6A-44BA-95C3-BE61D3C29F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13839D49-4F6A-44BA-95C3-BE61D3C29F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13839D49-4F6A-44BA-95C3-BE61D3C29F12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

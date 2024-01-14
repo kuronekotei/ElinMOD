@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Meta>
   <title>TpAddScrapToSmelter</title>
-  <id>tp_huge_fridge</id>
+  <id>tp_add_scrap_to_smelter</id>
   <author>TP@黒猫亭</author>
   <loadPriority>100</loadPriority>
   <description>溶鉱炉で、スクラップからインゴットが作成できるようになります</description>
