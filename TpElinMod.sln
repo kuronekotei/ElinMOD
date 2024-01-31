@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpMoreFragmentByMill", "TpM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpChatOnResidentList", "TpChatOnResidentList\TpChatOnResidentList.csproj", "{180A7ED8-0C18-443D-A841-8DFF06074B34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpLongSightInHome", "TpLongSightInHome\TpLongSightInHome.csproj", "{7F6A1341-D22C-4732-82A9-AFBAB3E7CA37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{180A7ED8-0C18-443D-A841-8DFF06074B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{180A7ED8-0C18-443D-A841-8DFF06074B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{180A7ED8-0C18-443D-A841-8DFF06074B34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F6A1341-D22C-4732-82A9-AFBAB3E7CA37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F6A1341-D22C-4732-82A9-AFBAB3E7CA37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F6A1341-D22C-4732-82A9-AFBAB3E7CA37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F6A1341-D22C-4732-82A9-AFBAB3E7CA37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
