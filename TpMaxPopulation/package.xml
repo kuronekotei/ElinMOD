@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+  <title>TpPopulation</title>
+  <id>tp_population</id>
+  <author>TP@黒猫亭</author>
+  <loadPriority>100</loadPriority>
+	<description>
+		Popuration base is 100 (origin 5)
+
+		人口許容の基礎値を100にします。
+	</description>
+	<version>0.22.1</version>
+</Meta>
