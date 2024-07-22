@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Meta>
-  <title>TpStackableTool</title>
-  <id>tp_stackable_tool</id>
-  <author>TP@黒猫亭</author>
-  <loadPriority>100</loadPriority>
-  <description>チャージ型ツールの使用回数がスタック可能になります　(聴診器、ロックピック、ブランケット)</description>
+	<title>TpStackableTool</title>
+	<id>tp_stackable_tool</id>
+	<author>TP@黒猫亭</author>
+	<loadPriority>100</loadPriority>
+	<description>
+		The number of uses of charged tools can now be stacked
+		(stethoscope, lockpick, blanket, love)
+
+		チャージ型ツールの使用回数がスタック可能になります
+		(聴診器、ロックピック、ブランケット, 愛の鞭)
+	</description>
+	<version>0.22.46</version>
 </Meta>
