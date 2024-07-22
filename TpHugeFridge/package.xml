@@ -4,5 +4,14 @@
   <id>tp_huge_fridge</id>
   <author>TP@黒猫亭</author>
   <loadPriority>100</loadPriority>
-  <description>冷蔵庫を極端に大きくします　(導入後生成したものに限る)</description>
+	<description>
+		Makes the fridge box huge (limited to those generated after introduction)
+
+		If you delete the mod, the box will remain, but new box will not be affected after delete.
+
+		冷蔵庫を極端に大きくします　(導入後生成したものに限る)
+
+		MODを消しても箱はそのままですが、それ以降に生成されたものには影響を与えません
+	</description>
+	<version>0.22.1</version>
 </Meta>
