@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Meta>
-  <title>TpDiligencePeaple</title>
-  <id>tp_diligence_peaple</id>
-  <author>TP@黒猫亭</author>
-  <loadPriority>100</loadPriority>
-  <description>住民が働き者になり、高確率で仕事を2個身に着けます</description>
+	<title>TpDiligencePeaple</title>
+	<id>tp_diligence_peaple</id>
+	<author>TP@黒猫亭</author>
+	<loadPriority>100</loadPriority>
+	<description>
+		Peaple will acquire 2 jobs. (with high probability)
+
+		If you delete the mod, the people will remain, but new people will not be affected after delete.
+
+		住民が働き者になり、高確率で仕事を2個身に着けます
+
+		MODを消しても人々はそのままですが、それ以降の新規住人には影響を与えません
+	</description>
+	<version>0.22.1</version>
 </Meta>
