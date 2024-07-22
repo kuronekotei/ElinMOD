@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+	<title>TpFreeDomain</title>
+	<id>tp_free_domain</id>
+	<author>TP@黒猫亭</author>
+	<loadPriority>100</loadPriority>
+	<description>
+		If you have Magic Mastery when creating your character, you can freely choose your Specialized Domain.
+
+		ゲーム開始時に「魔術の心得」がある場合は「専門領域」が自由に選べます
+	</description>
+	<version>0.22.1</version>
+</Meta>

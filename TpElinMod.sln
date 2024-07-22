@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpChatOnResidentList", "TpC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpLongSightInHome", "TpLongSightInHome\TpLongSightInHome.csproj", "{7F6A1341-D22C-4732-82A9-AFBAB3E7CA37}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpFreeDomain", "TpFreeDomain\TpFreeDomain.csproj", "{7E078794-9090-4DBB-9587-49ABFB3BBE25}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpAnyStethoscope", "TpAnyStethoscope\TpAnyStethoscope.csproj", "{285D18F6-0C51-4D54-9D81-E0FABB20789F}"
 EndProject
 Global
@@ -107,6 +109,10 @@ Global
 		{7F6A1341-D22C-4732-82A9-AFBAB3E7CA37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F6A1341-D22C-4732-82A9-AFBAB3E7CA37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F6A1341-D22C-4732-82A9-AFBAB3E7CA37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E078794-9090-4DBB-9587-49ABFB3BBE25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E078794-9090-4DBB-9587-49ABFB3BBE25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E078794-9090-4DBB-9587-49ABFB3BBE25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E078794-9090-4DBB-9587-49ABFB3BBE25}.Release|Any CPU.Build.0 = Release|Any CPU
 		{285D18F6-0C51-4D54-9D81-E0FABB20789F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{285D18F6-0C51-4D54-9D81-E0FABB20789F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{285D18F6-0C51-4D54-9D81-E0FABB20789F}.Release|Any CPU.ActiveCfg = Release|Any CPU
