@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Meta>
-  <title>TpStackableSpellbook</title>
-  <id>tp_stackable_spellbook</id>
-  <author>TP@黒猫亭</author>
-  <loadPriority>100</loadPriority>
-  <description>魔法書の使用回数がスタック可能になります</description>
+	<title>TpStackableSpellbook</title>
+	<id>tp_stackable_spellbook</id>
+	<author>TP@黒猫亭</author>
+	<loadPriority>100</loadPriority>
+	<description>
+		The number of times a spellbook is used can now be stacked.
+
+		魔法書の使用回数がスタック可能になります
+	</description>
+	<version>0.22.1</version>
 </Meta>
