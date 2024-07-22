@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Meta>
-  <title>TpLongSightInHome</title>
-  <id>tp_long_sight_in_home</id>
-  <author>TP@黒猫亭</author>
-  <loadPriority>100</loadPriority>
-  <description>拠点でPCの明かり範囲と視野を100(通常4～6)にします。</description>
+	<title>TpLongSightInHome</title>
+	<id>tp_long_sight_in_home</id>
+	<author>TP@黒猫亭</author>
+	<loadPriority>100</loadPriority>
+	<description>
+		Set the PC's light range and field of view to 100 (usually 4-6) at the base.
+
+		拠点でPCの明かり範囲と視野を100(通常4～6)にします。
+	</description>
+	<version>0.22.1</version>
 </Meta>
