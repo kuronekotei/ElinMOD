@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Meta>
-  <title>TpRemoveUnhealthyHobby</title>
-  <id>tp_remove_unhealthy_hobby</id>
-  <author>TP@黒猫亭</author>
-  <loadPriority>100</loadPriority>
-  <description>住民に不健全な趣味が発生しなくなります(仕事には影響しません)</description>
+	<title>TpRemoveUnhealthyHobby</title>
+	<id>tp_remove_unhealthy_hobby</id>
+	<author>TP@黒猫亭</author>
+	<loadPriority>100</loadPriority>
+	<description>
+		Residents will no longer have unhealthy hobbies (does not affect work)
+
+		If you delete the mod, the people will remain, but new people will not be affected after delete.
+
+		住民に不健全な趣味が発生しなくなります(仕事には影響しません)
+
+		MODを消しても人々はそのままですが、それ以降の新規住人には影響を与えません
+	</description>
+	<version>0.22.1</version>
 </Meta>
