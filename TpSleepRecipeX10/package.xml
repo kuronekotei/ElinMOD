@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Meta>
-  <title>TpSleepRecipeX10</title>
-  <id>tp_sleep_recipe_x10</id>
-  <author>TP@黒猫亭</author>
-  <loadPriority>100</loadPriority>
-  <description>睡眠時に取得できるレシピが10倍になります</description>
+	<title>TpSleepRecipeX10</title>
+	<id>tp_sleep_recipe_x10</id>
+	<author>TP@黒猫亭</author>
+	<loadPriority>100</loadPriority>
+	<description>
+		Recipes that can be obtained while sleeping will be increased by 10 times.
+
+		睡眠時に取得できるレシピが10倍になります
+	</description>
+	<version>0.22.1</version>
 </Meta>
