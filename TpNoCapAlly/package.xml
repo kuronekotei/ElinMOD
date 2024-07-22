@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+	<title>TpNoCapAlly</title>
+	<id>tp_no_cap_ally</id>
+	<author>TP@黒猫亭</author>
+	<loadPriority>100</loadPriority>
+	<description>
+		NoCapAlly
+
+		仲間の最大数の制限をなくします
+	</description>
+	<version>0.22.1</version>
+</Meta>
