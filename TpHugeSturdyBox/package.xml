@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Meta>
-  <title>TpHugeSturdyBox</title>
-  <id>tp_huge_sturdy_box</id>
-  <author>TP@黒猫亭</author>
-  <loadPriority>100</loadPriority>
-  <description>頑丈な箱を極端に大きくします　(導入後生成したものに限る)</description>
+	<title>TpHugeSturdyBox</title>
+	<id>tp_huge_sturdy_box</id>
+	<author>TP@黒猫亭</author>
+	<loadPriority>100</loadPriority>
+	<description>
+		Makes the sturdy box huge (limited to those generated after introduction)
+
+		If you delete the mod, the box will remain, but new box will not be affected after delete.
+
+		頑丈な箱を極端に大きくします　(導入後生成したものに限る)
+
+		MODを消しても箱はそのままですが、それ以降に生成されたものには影響を与えません
+	</description>
+	<version>0.22.1</version>
 </Meta>
