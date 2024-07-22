@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+	<title>TpAnyStethoscope</title>
+	<id>tp_any_stethoscope</id>
+	<author>TP@黒猫亭</author>
+	<loadPriority>100</loadPriority>
+	<description>
+		You can use Stethoscope to any.
+
+		誰にでも聴診器が使えます
+	</description>
+	<version>0.22.1</version>
+</Meta>
