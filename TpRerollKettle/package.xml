@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+	<title>TpRerollKettle</title>
+	<id>tp_reroll_kettle</id>
+	<author>TP@黒猫亭</author>
+	<loadPriority>100</loadPriority>
+	<description>
+		You can reroll Kettle
+
+		ケトルの再入荷を可能にします
+		V.0.22.54：再入荷を5日、登録最大数を10にします
+	</description>
+	<version>0.22.54</version>
+</Meta>

@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpAnyStethoscope", "TpAnySt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpNoCapAlly", "TpNoCapAlly\TpNoCapAlly.csproj", "{DB68F453-497B-4B9C-A454-7B31EE347A2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpRerollKettle", "TpRerollKettle\TpRerollKettle.csproj", "{51026BD9-4919-452C-9E36-DDEAA9B27AFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{DB68F453-497B-4B9C-A454-7B31EE347A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB68F453-497B-4B9C-A454-7B31EE347A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB68F453-497B-4B9C-A454-7B31EE347A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51026BD9-4919-452C-9E36-DDEAA9B27AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51026BD9-4919-452C-9E36-DDEAA9B27AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51026BD9-4919-452C-9E36-DDEAA9B27AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51026BD9-4919-452C-9E36-DDEAA9B27AFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
