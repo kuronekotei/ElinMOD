@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Meta>
-  <title>TpChatOnResidentList</title>
-  <id>tp_chat_on_resident_list</id>
-  <author>TP@黒猫亭</author>
-  <loadPriority>100</loadPriority>
-  <description>住民台帳で住民と会話できます</description>
+	<title>TpChatOnResidentList</title>
+	<id>tp_chat_on_resident_list</id>
+	<author>TP@黒猫亭</author>
+	<loadPriority>100</loadPriority>
+	<description>
+		You can talk to residents using the resident book.
+
+		住民台帳で住民と会話できます
+	</description>
+	<version>0.22.1</version>
 </Meta>
