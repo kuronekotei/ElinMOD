@@ -63,7 +63,7 @@ namespace TpFarming
 						CraftUtil.ModRandomFoodEnc(t);
 					}
 				}
-				t.LV += 1;
+
 				t.ModEncLv(1);
 			}
 			return false;
