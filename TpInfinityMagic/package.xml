@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+	<title>TpInfinityMagic</title>
+	<id>tp_infinity_magic</id>
+	<author>TP@黒猫亭</author>
+	<loadPriority>100</loadPriority>
+	<description>
+		Magic is not consumed.
+
+		魔法使用時に使用回数が消費されません.
+	</description>
+	<version>0.22.1</version>
+</Meta>
