@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+	<title>TpPerfectTrainer</title>
+	<id>tp_perfect_trainer</id>
+	<author>TP@黒猫亭</author>
+	<loadPriority>100</loadPriority>
+	<description>
+		Trainer become perfect in PC fuction.
+
+		拠点にいるトレイナーが完璧になります
+	</description>
+	<version>0.22.1</version>
+</Meta>
