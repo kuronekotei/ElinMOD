@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+	<title>TpManyPutit</title>
+	<id>tp_many_putit</id>
+	<author>TP@黒猫亭</author>
+	<loadPriority>100</loadPriority>
+	<description>
+		Add many Putit.
+		They have a variety of magic and skills and the multiply, making them a little dangerous.
+
+		多彩なプチを追加します。
+		各種魔法やスキルに増殖能力を持ち、危険度は少し高めです。
+
+		#ele4 ball putit	#ele4玉プチ
+		#ele4 ball snow putit	#ele4玉雪プチ
+		#ele4 ball metal putit	#ele4玉メタルプチ
+		#ele4 arrow putit	#ele4矢プチ
+		#ele4 arrow snow putit	#ele4矢雪プチ
+		#ele4 arrow metal putit	#ele4矢メタルプチ
+		#ele4 hand putit	#ele4手プチ
+		#ele4 hand snow putit	#ele4手雪プチ
+		#ele4 hand metal putit	#ele4手メタルプチ
+		#ele4 summon putit	#ele4召喚プチ
+		#ele4 summon snow putit	#ele4召喚雪プチ
+		#ele4 summon metal putit	#ele4召喚メタルプチ
+		bomb putit	爆弾プチ
+		#ele4 defender putit	#ele4防衛プチ
+	</description>
+	<version>0.22.1</version>
+</Meta>
