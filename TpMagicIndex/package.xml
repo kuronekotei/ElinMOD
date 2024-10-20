@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+	<title>TpMagicIndex</title>
+	<id>tp_magic_index</id>
+	<author>TP@黒猫亭</author>
+	<loadPriority>100</loadPriority>
+	<description>
+		Adds a spellbook for magic that does not originally have one.
+		Ex. Wish ChangeMaterial FireArrow AcidBreathe...
+
+		If you delete the mod, magic and spellbook will remain, but new spellbook will not be affected after delete.
+
+		本来魔法書がない魔法の魔法書を追加します。
+		例：願い　素材変化　炎の矢　酸の吐息
+
+		MODを消しても魔法書と覚えた魔法はそのままですが、それ以降に生成されたものには影響を与えません
+	</description>
+	<version>0.22.1</version>
+</Meta>
