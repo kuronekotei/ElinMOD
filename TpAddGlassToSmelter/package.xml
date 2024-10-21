@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Meta>
-  <title>TpAddGlassToSmelter</title>
-  <id>tp_add_glass_to_smelter</id>
-  <author>TP@黒猫亭</author>
-  <loadPriority>100</loadPriority>
-  <description>溶鉱炉で、ガラスから貴石が作成できるようになります</description>
-</Meta>

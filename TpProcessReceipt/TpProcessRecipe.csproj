@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2856DFC1-2DCB-4A95-BF64-8F1EB33F640E}</ProjectGuid>
+    <ProjectGuid>{C0B9786C-33D2-4CB1-B123-6299804D8428}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TpAddScrapToSmelter</RootNamespace>
-    <AssemblyName>TpAddScrapToSmelter</AssemblyName>
+    <RootNamespace>TpProcessRecipe</RootNamespace>
+    <AssemblyName>TpProcessRecipe</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -49,8 +49,16 @@
       <HintPath>..\Managed\Elin.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Plugins">
+      <HintPath>..\Managed\Plugins.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Plugins.BaseCore">
       <HintPath>..\Managed\Plugins.BaseCore.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Plugins.UI">
+      <HintPath>..\Managed\Plugins.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Reflex">
@@ -75,8 +83,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddScrapToSmelter.cs" />
-    <Compile Include="Mod_AddScrapToSmelter.cs" />
+    <Compile Include="ProcessRecipe.cs" />
+    <Compile Include="Mod_ProcessRecipe.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

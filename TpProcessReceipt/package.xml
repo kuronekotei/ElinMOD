@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+	<title>TpProcessRecipe</title>
+	<id>tp_process_Recipe</id>
+	<author>TP@黒猫亭</author>
+	<loadPriority>100</loadPriority>
+	<description>
+		Add many processing recipe.　(There is also increasing pattern)
+
+		大量の加工レシピを追加します.　(素材が増えるパターンもあります)
+
+		scrap → ingot
+		glass → gem
+		ingot → plank, cutstone, thread
+		fragment → plank, cutstone, thread
+		plank, cutstone, thread → fragment
+		...more
+
+		スクラップ → インゴット
+		ガラス → 貴石
+		インゴット → 厚板, 切り石, 糸
+		欠片 → 厚板, 切り石, 糸
+		厚板, 切り石, 糸 → 欠片
+		...他
+
+	</description>
+	<version>0.22.1</version>
+</Meta>

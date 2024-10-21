@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Meta>
-  <title>TpMoreFragmentByMill</title>
-  <id>tp_more_fragment_by_mill</id>
-  <author>TP@黒猫亭</author>
-  <loadPriority>100</loadPriority>
-  <description>石うすで、板/棒/石材/小石から欠片が作成できるようになります</description>
-</Meta>
