@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpManyPutit", "TpManyPutit\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpProcessRecipe", "TpProcessReceipt\TpProcessRecipe.csproj", "{C0B9786C-33D2-4CB1-B123-6299804D8428}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpAfCatsGoods", "TpAfCatsGoods\TpAfCatsGoods.csproj", "{F900A401-F062-4CAA-9F5A-AE03BF86F003}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{C0B9786C-33D2-4CB1-B123-6299804D8428}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0B9786C-33D2-4CB1-B123-6299804D8428}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0B9786C-33D2-4CB1-B123-6299804D8428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F900A401-F062-4CAA-9F5A-AE03BF86F003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F900A401-F062-4CAA-9F5A-AE03BF86F003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F900A401-F062-4CAA-9F5A-AE03BF86F003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F900A401-F062-4CAA-9F5A-AE03BF86F003}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

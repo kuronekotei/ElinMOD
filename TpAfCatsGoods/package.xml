@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+	<title>TpAfCatsGoods</title>
+	<id>tp_af_cats_goods</id>
+	<author>TP@黒猫亭</author>
+	<loadPriority>100</loadPriority>
+	<description>
+		Add Artifact. That`s crafted by handcraft.
+
+		アーティファクトを追加します。簡易作成で作れます。
+
+		ネコのツメ　採掘/伐採/釣りが可能な道具
+		ネコのシッポ　特殊なワンド
+		ネコの瞳　見える範囲の広い光源
+		ネコのヒゲ　様々な音楽を奏で、人が寄ってくる楽器
+		ネコの超次元バッグ　持ち運べる収納箱　挙動が通常のカバンと異なるのは仕様です　重量0　腐敗0　860枠　レンチ可
+
+		ネコの手帳
+		　　クエストボード、ホーム掲示板、住民掲示板の機能を併せ持つ
+		　　「神の目を持つ」デバッグ機能の追加情報表示を有効にする
+		　　「神になる」コンソールCheat有効時限定　無敵、拠点外ビルド、勧誘条件無視などが同時に有効になる
+		　　「*SetZone*」神限定　拠点レベル7になり、すべてのポリシー等を覚える
+		　　「*GetSkill*」神限定　マップ内の自勢力全員に全スキルを与え、スキルレベルも1増やす
+		　　「*GetGene*」神限定　マップ内の自勢力全員から遺伝子を得る
+		　　「*GetFeatPt*」神限定　マップ内の自勢力全員にフィートポイント100を与える
+
+		Machine Translation
+		Cat's Claw: A tool that can be used for mining, cutting trees, and fishing
+		Cat's Tail: A special wand
+		Cat's Eye: A light source with a wide range of visibility
+		Cat's Whisker: An instrument that plays various music and attracts people
+		Cat's HD Bag - A portable storage box - Its behavior is different from that of a normal bag by design - Weight 0 - Decay 0 - 860 slots - Wrenchable
+
+		Cat's Notebook
+		-　Combines the functions of a quest board, home bulletin board, and resident bulletin board
+		-　"Has the eyes of God": Enables the display of additional information in the debug function
+		-　"Become God": Only when the console cheat is enabled, invincibility, building outside the base, ignoring recruitment conditions, etc. are enabled at the same time
+		-　"*SetZone*" God only: Reach base level 7 and learn all policies, etc.
+		-　"*GetSkill*" God only: Give all skills to all members of your faction on the map and increase their skill level by 1
+		-　"*GetGene*" God only: Get genes from all members of your faction on the map
+		-　"*GetFeatPt*" God only: Give 100 feat points to all members of your faction on the map
+	</description>
+	<version>0.23.35</version>
+</Meta>
