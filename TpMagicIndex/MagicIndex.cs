@@ -80,6 +80,10 @@ namespace TpMagicIndex
 					case "SpDrawMonster":
 					case "SpDrawMetal":
 					case "SpCureMutation":
+					case "SpSummonMonster":
+					case "SpReconstruction":
+					case "SpSummonPawn":
+					case "SpDrawBacker":
 						AddBook(ele);
 						break;
 				}
@@ -103,17 +107,21 @@ namespace TpMagicIndex
 
 		[HarmonyPrefix, HarmonyPatch(typeof(InvOwnerChangeMaterial), nameof(InvOwnerChangeMaterial.CreateDefaultContainer))]
 		public static bool CreateDefaultContainer(InvOwnerChangeMaterial __instance, ref Thing __result) {
-			if (__instance.idEffect == EffectId.ChangeMaterialGreater || __instance.idEffect == EffectId.ChangeMaterial || __instance.idEffect == EffectId.ChangeMaterialLesser) {
-				__result = ThingGen.CreateScroll(__instance.idEffect == EffectId.ChangeMaterialGreater ? 8286 : (__instance.idEffect == EffectId.ChangeMaterialLesser ? 8284 : 8285));
-				return false;
+			if (__instance.mat==null ) {
+				if (__instance.idEffect == EffectId.ChangeMaterialGreater || __instance.idEffect == EffectId.ChangeMaterial || __instance.idEffect == EffectId.ChangeMaterialLesser) {
+					__result = ThingGen.CreateScroll(__instance.idEffect == EffectId.ChangeMaterialGreater ? 8286 : (__instance.idEffect == EffectId.ChangeMaterialLesser ? 8284 : 8285));
+					return false;
+				}
 			}
 			return true;
 		}
 		[HarmonyPrefix, HarmonyPatch(typeof(InvOwnerChangeMaterial), nameof(InvOwnerChangeMaterial._OnProcess))]
 		public static bool _OnProcess(InvOwnerChangeMaterial __instance, Thing t) {
-			if (__instance.idEffect == EffectId.ChangeMaterialGreater || __instance.idEffect == EffectId.ChangeMaterial || __instance.idEffect == EffectId.ChangeMaterialLesser) {
-				ActEffect.Proc(__instance.idEffect, 100, __instance.state, (Card)__instance.cc, (Card)t);
-				return false;
+			if (__instance.mat == null) {
+				if (__instance.idEffect == EffectId.ChangeMaterialGreater || __instance.idEffect == EffectId.ChangeMaterial || __instance.idEffect == EffectId.ChangeMaterialLesser) {
+					ActEffect.Proc(__instance.idEffect, 100, __instance.state, (Card)__instance.cc, (Card)t);
+					return false;
+				}
 			}
 			return true;
 		}
