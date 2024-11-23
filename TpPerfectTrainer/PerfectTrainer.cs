@@ -39,6 +39,9 @@ namespace TpPerfectTrainer
 				if (ClassExtension.Contains(a.tag, "unused")) {
 					return false;
 				}
+				if(a.category != "skill") {
+					return false;
+				}
 				return !string.IsNullOrWhiteSpace(TraitTrainer.ids.FirstOrDefault(x => x == a.categorySub));
 			})).ToList<SourceElement.Row>()
 			) {
