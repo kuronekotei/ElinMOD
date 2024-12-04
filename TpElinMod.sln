@@ -17,8 +17,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpHugeSturdyBox", "TpHugeSt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpHugeFridge", "TpHugeFridge\TpHugeFridge.csproj", "{7EA0B0FD-CE7B-44D9-A48B-D4AB805A1FE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpRemoveFireAndColdSpellbook", "TpRemoveFireAndColdSpellbook\TpRemoveFireAndColdSpellbook.csproj", "{8F5B2AD3-A38A-40EB-B866-8666076FE070}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpStackableSpellbook", "TpStackableSpellbook\TpStackableSpellbook.csproj", "{18C2DD19-BFFF-4C2E-B565-346B60D44C19}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpStackableTool", "TpStackableTool\TpStackableTool.csproj", "{D686E069-BE27-4AE5-9967-BC10C23B04B6}"
@@ -87,10 +85,6 @@ Global
 		{7EA0B0FD-CE7B-44D9-A48B-D4AB805A1FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EA0B0FD-CE7B-44D9-A48B-D4AB805A1FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EA0B0FD-CE7B-44D9-A48B-D4AB805A1FE4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8F5B2AD3-A38A-40EB-B866-8666076FE070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8F5B2AD3-A38A-40EB-B866-8666076FE070}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8F5B2AD3-A38A-40EB-B866-8666076FE070}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8F5B2AD3-A38A-40EB-B866-8666076FE070}.Release|Any CPU.Build.0 = Release|Any CPU
 		{18C2DD19-BFFF-4C2E-B565-346B60D44C19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{18C2DD19-BFFF-4C2E-B565-346B60D44C19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18C2DD19-BFFF-4C2E-B565-346B60D44C19}.Release|Any CPU.ActiveCfg = Release|Any CPU
