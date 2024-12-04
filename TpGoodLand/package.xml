@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+	<title>TpGoodLand</title>
+	<id>tp_good_land</id>
+	<author>TP@黒猫亭</author>
+	<loadPriority>100</loadPriority>
+	<description>
+		Fixes land feet.
+		If claimed become Lv7.
+		Remove if you want to revert to random.
+
+		土地フィートを固定します。
+		取得時にレベル7になります。
+		ランダムに戻したいときは抜いてください。
+	</description>
+	<version>0.23.1</version>
+</Meta>
