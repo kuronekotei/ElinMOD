@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpMapSize", "TpMapSize\TpMa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpAfCatsGoods", "TpAfCatsGoods\TpAfCatsGoods.csproj", "{F900A401-F062-4CAA-9F5A-AE03BF86F003}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpMagicAppendix", "TpMagicAppendix\TpMagicAppendix.csproj", "{5DB17925-19EF-4FF1-B778-12E7727338EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{F900A401-F062-4CAA-9F5A-AE03BF86F003}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F900A401-F062-4CAA-9F5A-AE03BF86F003}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F900A401-F062-4CAA-9F5A-AE03BF86F003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DB17925-19EF-4FF1-B778-12E7727338EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB17925-19EF-4FF1-B778-12E7727338EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB17925-19EF-4FF1-B778-12E7727338EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB17925-19EF-4FF1-B778-12E7727338EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

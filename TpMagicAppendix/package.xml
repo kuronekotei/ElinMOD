@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+	<title>TpMagicAppendix</title>
+	<id>tp_magic_appendix</id>
+	<author>TP@黒猫亭</author>
+	<loadPriority>100</loadPriority>
+	<description>
+		Adds spellbooks for magic.
+		All spells are generated just like a normal spellbook.
+		Please check the effects in the game. I won't explain any more.
+
+		魔法の魔法書を追加します。
+		全ての魔法は通常の魔法書と同様に生成されます。
+		効果はゲーム内で確認してください。
+
+		----
+
+		粉砕  掘削  畳返し  回収  収集
+		*帰還*  *テレポート*  探知  日照り  雨乞い  風起こし
+		強制排卵  強制搾乳  強制抽出  培養  洗脳
+		エターナルフォースブリザード(極端にレア)
+
+		Demolition  Drilling  PullingRug  CollectAll  Gathering
+		*Return*  *Teleport*  SenceObject  ClearSky  BringRain  CreateWind
+		ForceOvulation  ForceMilking  ForceSqueeze  Cultivate  Brainwash
+		EternalForceBlizzard(VeryRare)
+	</description>
+	<version>0.23.46</version>
+</Meta>
