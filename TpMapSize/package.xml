@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+	<title>TpMapSize</title>
+	<id>tp_map_size</id>
+	<author>TP@黒猫亭</author>
+	<loadPriority>100</loadPriority>
+	<description>
+		Add command.
+		　"_GetMapSize"　Get current map size.
+		　"_SetMapSize"　Set current map size. Def:100 Min:10 Max:250
+		　"_GetMapBouns"　Get current map bouns(claimed area).
+		　"_SetMapBouns"　Set current map bouns(claimed area).
+		*** VERY DENGER!! ***
+		Improper use may cause irreparable damage to the map data.
+
+		4つのコマンドを追加します。
+		　"_GetMapSize"　現在のマップサイズ取得
+		　"_SetMapSize"　現在のマップサイズ設定　通常は100ですが、一部マップは異なります
+		　"_GetMapBouns"　現在のマップで利用可能なエリアを取得.
+		　"_SetMapBouns"　現在のマップで利用可能なエリアを設定.
+		*** このMODは非常に危険です ***
+		変な使い方をするとマップデータに復旧不可能なダメージが発生します。
+	</description>
+	<version>0.23.1</version>
+</Meta>
