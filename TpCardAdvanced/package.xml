@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+	<title>TpCardAdvanced</title>
+	<id>tp_card_advanced</id>
+	<author>TP@黒猫亭</author>
+	<loadPriority>100</loadPriority>
+	<description>
+		Take out figures and statues from the card codex.
+		Under cheat flag, you can increase the number of cards.
+
+		カード図鑑から剥製や彫像が取り出せるようになります。
+		チートフラグ条件下では、カードの増加機能付き。
+		更に、GodBuildかGodCraft条件下では消費も発生しない。
+		
+		ついでに、取り出したカードが自動収納される問題も修正しています
+	</description>
+	<version>0.23.1</version>
+</Meta>
