@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+	<title>TpLoytelMart</title>
+	<id>tp_loytel_mart</id>
+	<author>TP@黒猫亭</author>
+	<loadPriority>100</loadPriority>
+	<description>
+		LoytelMart sells various items.
+
+		ロイテルくんがいろいろなものを売ります。
+	</description>
+	<version>0.23.1</version>
+</Meta>
