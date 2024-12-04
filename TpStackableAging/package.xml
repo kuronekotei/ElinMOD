@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+	<title>TpStackableAging</title>
+	<id>tp_stackable_aging</id>
+	<author>TP@黒猫亭</author>
+	<loadPriority>100</loadPriority>
+	<description>
+		Auto stack when aging.
+		(Brewery, AgingShelf, Compost...)
+
+		熟成系ツールで自動整頓します。
+		(醸造樽、熟成棚、肥料箱・・・)
+	</description>
+	<version>0.23.0</version>
+</Meta>
