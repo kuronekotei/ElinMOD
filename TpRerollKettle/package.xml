@@ -10,5 +10,6 @@
 		ケトルの再入荷を可能にします
 		V.0.22.54：再入荷を5日、登録最大数を10にします
 	</description>
-	<version>0.23.0</version>
+	<tags>QoL,Balance,Item,NPC</tags>
+	<version>0.23.46</version>
 </Meta>

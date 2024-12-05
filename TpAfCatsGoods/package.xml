@@ -40,5 +40,6 @@
 		-　"*GetGene*" God only: Get genes from all members of your faction on the map
 		-　"*GetFeatPt*" God only: Give 100 feat points to all members of your faction on the map
 	</description>
-	<version>0.23.35</version>
+	<tags>Cheat,Item</tags>
+	<version>0.23.46</version>
 </Meta>

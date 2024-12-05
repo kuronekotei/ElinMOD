@@ -9,5 +9,6 @@
 
 		魔法書の使用回数がスタック可能になります
 	</description>
-	<version>0.23.0</version>
+	<tags>QoL,Item</tags>
+	<version>0.23.46</version>
 </Meta>

@@ -13,5 +13,6 @@
 
 		MODを消しても箱はそのままですが、それ以降に生成されたものには影響を与えません
 	</description>
-	<version>0.23.0</version>
+	<tags>QoL,Balance,Item</tags>
+	<version>0.23.46</version>
 </Meta>

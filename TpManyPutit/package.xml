@@ -10,6 +10,7 @@
 
 		多彩なプチを追加します。
 		各種魔法やスキルに増殖能力を持ち、危険度は少し高めです。
+		（増殖メタルが凶悪すぎたので、増殖は通常プチの亜種だけになりました）
 
 		#ele4 ball putit	#ele4玉プチ
 		#ele4 ball snow putit	#ele4玉雪プチ
@@ -26,5 +27,6 @@
 		bomb putit	爆弾プチ
 		#ele4 defender putit	#ele4防衛プチ
 	</description>
-	<version>0.23.12</version>
+	<tags>NPC</tags>
+	<version>0.23.46</version>
 </Meta>

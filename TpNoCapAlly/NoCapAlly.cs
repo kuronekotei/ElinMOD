@@ -11,8 +11,7 @@ using UnityEngine;
 namespace TpNoCapAlly
 {
 	[HarmonyPatch]
-	public class NoCapAlly
-    {
+	public class NoCapAlly {
 		[HarmonyPrefix, HarmonyPatch(typeof(Player), nameof(Player.MaxAlly), MethodType.Getter)]
 		public static bool MaxAlly(ref int __result) {
 			__result = Mathf.Max(EClass.pc.CHA / 10, 1) + EClass.pc.Evalue(1645);
@@ -21,8 +20,7 @@ namespace TpNoCapAlly
 		[HarmonyPrefix, HarmonyPatch(typeof(Player), nameof(Player.RefreshEmptyAlly))]
 		public static bool RefreshEmptyAlly(Player __instance) {
 			int num = __instance.MaxAlly - EClass.pc.party.members.Count + 1;
-			if (__instance.MaxAlly > 8) 
-			{
+			if (__instance.MaxAlly > 8) {
 				num = 8 * (__instance.MaxAlly - EClass.pc.party.members.Count) / __instance.MaxAlly + 1;
 			}
 			if (num == __instance.lastEmptyAlly) { return false; }
@@ -33,5 +31,13 @@ namespace TpNoCapAlly
 			return false;
 		}
 
+		[HarmonyPrefix, HarmonyPatch(typeof(Card), nameof(Card.HasElement), new Type[]{typeof(int),typeof(int)})]
+		public static bool HasElement(Card __instance, ref bool __result, int ele) {
+			if (ele == FEAT.featServant) {
+				__result = false;
+				return false;
+			}
+			return true;
+		}
 	}
 }

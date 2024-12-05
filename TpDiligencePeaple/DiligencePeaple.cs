@@ -17,13 +17,11 @@ namespace TpDiligencePeaple
 	{
 		[HarmonyPostfix, HarmonyPatch(typeof(Chara), nameof(Chara.RerollHobby))]
 		public static void RerollHobby(Chara __instance) {
-			Debug.Log("DiligencePeaple");
 			if (__instance._works?.Count < 2) {
 				int newWork = EClass.sources.hobbies.listWorks.RandomItem<SourceHobby.Row>().id;
-				newWork = __instance._works[0] != newWork ? newWork : EClass.sources.hobbies.listWorks.RandomItem<SourceHobby.Row>().id;
-				newWork = __instance._works[0] != newWork ? newWork : EClass.sources.hobbies.listWorks.RandomItem<SourceHobby.Row>().id;
 				__instance.AddWork(newWork);
 			}
+			__instance.GetWorkSummary().Reset();
 		}
 	}
 }

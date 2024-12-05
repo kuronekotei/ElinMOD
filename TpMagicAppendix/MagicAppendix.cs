@@ -114,8 +114,8 @@ namespace TpMagicAppendix
 			}
 			Act.CC.PlayEffect("identify");
 			Act.CC.PlaySound("identify");
-			int p = (int)Math.Max((Math.Sqrt(pow) + Math.Max(Act.CC.Evalue(SKILL.LUC), 1)) / 2, 1);
-			int p2 = (int)Math.Min(Math.Max(Math.Sqrt(p / 10), 1), 10);
+			int p = (int)Math.Max((Math.Sqrt(pow) + Math.Max(Act.CC.Evalue(SKILL.LUC) / 2, 1)), 1);
+			int p2 = (int)Math.Min(Math.Max(Math.Sqrt(p / 5), 2), 10);
 
 			if (p == 0) {
 				return;
@@ -132,7 +132,9 @@ namespace TpMagicAppendix
 				}
 			}
 			Thing t2 = ThingGen.Create(list2.RandomItem()).SetNum(EClass.rnd(p2));
-			EClass._map.TrySmoothPick(Act.CC.Cell, t2, Act.CC);
+			if(t2.Num > 0) {
+				EClass._map.TrySmoothPick(Act.CC.Cell, t2, Act.CC);
+			}
 		}
 
 		public static void CollectAll(Act act, int pow) {

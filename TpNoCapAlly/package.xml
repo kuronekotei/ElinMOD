@@ -5,9 +5,13 @@
 	<author>TP@黒猫亭</author>
 	<loadPriority>100</loadPriority>
 	<description>
-		NoCapAlly
+		NoCapAlly (Def. Max 5 by CHA +Feat(3))
+		No Cap God's Servant (Def. 2)
 
-		仲間の最大数の制限をなくします
+		仲間の最大数の制限をなくします。
+		通常は「魅力に応じて最大5体　＋フィート(3)」ですが、魅力さえあれば大量に連れ歩けます。
+		ついでに使徒の2体制限もなくなります。
 	</description>
-	<version>0.23.0</version>
+	<tags>Cheat,NPC</tags>
+	<version>0.23.46</version>
 </Meta>

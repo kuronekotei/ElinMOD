@@ -11,5 +11,6 @@
 		チャージ型ツールの使用回数がスタック可能になります
 		(聴診器、ロックピック、ブランケット, 愛の鞭)
 	</description>
-	<version>0.23.0</version>
+	<tags>QoL,Item</tags>
+	<version>0.23.46</version>
 </Meta>

@@ -79,6 +79,7 @@ public class TraitTpCatsNote : TraitItem
 			EClass.debug.godCraft = false;
 			EClass.debug.inviteAnytime = false;
 			EClass.debug.showExtra = false;
+			EClass.debug.ignoreBuildRule = true;
 		} else {
 			EClass.debug.numResource = 10000;
 			EClass.debug.godMode = true;
@@ -86,6 +87,7 @@ public class TraitTpCatsNote : TraitItem
 			EClass.debug.godCraft = true;
 			EClass.debug.inviteAnytime = true;
 			EClass.debug.showExtra = true;
+			EClass.debug.ignoreBuildRule = true;
 		}
 	}
 

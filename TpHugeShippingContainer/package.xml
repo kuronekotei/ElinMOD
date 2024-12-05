@@ -15,5 +15,6 @@
 		保存されたデータに不可逆な変更を加えます
 		このMODを削除しても、出荷箱は元に戻りません
 	</description>
-	<version>0.23.0</version>
+	<tags>QoL,Balance,Item</tags>
+	<version>0.23.46</version>
 </Meta>

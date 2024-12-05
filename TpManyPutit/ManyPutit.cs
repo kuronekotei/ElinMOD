@@ -73,7 +73,11 @@ namespace TpManyPutit
 			c.mainElement = new string[] { "Fire", "Cold", "Lightning", "Darkness", "Mind", "Poison", "Nerve", "Nether", "Sound", "Chaos", "Ether", "Cut", "Acid", "Magic" };
 			c.actCombat = c.actCombat.AddRangeToArray(new string[] { "ball_/80", "funnel_/20" });
 			c.lightData = "wisp";
-			c.elements = c.elements.AddRangeToArray(new int[] { SKILL.mana, 100, FEAT.featSplit, 1, SKILL.evasionPerfect, 20, SKILL.controlmana, 100, SKILL.casting, 100 });
+			c.elements = c.elements.AddRangeToArray(new int[] { SKILL.mana, 100, SKILL.evasionPerfect, 20, SKILL.controlmana, 100, SKILL.casting, 100 });
+			if(baseChara.id== "putty") {
+				c.elements.AddItem(FEAT.featSplit);
+				c.elements.AddItem(1);
+			}
 			c.colorMod = 100;
 			c.tiles = tileBase.tiles;
 			c._tiles = tileBase._tiles;
@@ -90,7 +94,11 @@ namespace TpManyPutit
 			c.mainElement = new string[] { "Fire", "Cold", "Lightning", "Darkness", "Mind", "Poison", "Nerve", "Nether", "Sound", "Chaos", "Ether", "Cut", "Acid", "Magic" };
 			c.actCombat = c.actCombat.AddRangeToArray(new string[] { "arrow_/80", "bolt_/20" });
 			c.lightData = "wisp";
-			c.elements = c.elements.AddRangeToArray(new int[] { SKILL.mana, 100, FEAT.featSplit, 1, SKILL.evasionPerfect, 20, SKILL.controlmana, 100, SKILL.casting, 100 });
+			c.elements = c.elements.AddRangeToArray(new int[] { SKILL.mana, 100, SKILL.evasionPerfect, 20, SKILL.controlmana, 100, SKILL.casting, 100 });
+			if (baseChara.id == "putty") {
+				c.elements.AddItem(FEAT.featSplit);
+				c.elements.AddItem(1);
+			}
 			c.colorMod = 100;
 			c.tiles = tileBase.tiles;
 			c._tiles = tileBase._tiles;
@@ -107,7 +115,11 @@ namespace TpManyPutit
 			c.mainElement = new string[] { "Fire", "Cold", "Lightning", "Darkness", "Mind", "Poison", "Nerve", "Nether", "Sound", "Chaos", "Ether", "Cut", "Acid", "Magic" };
 			c.actCombat = c.actCombat.AddRangeToArray(new string[] { "hand_/80", "ActDraw/20" });
 			c.lightData = "wisp";
-			c.elements = c.elements.AddRangeToArray(new int[] { SKILL.mana, 100, FEAT.featSplit, 1, SKILL.controlmana, 100, SKILL.casting, 100 });
+			c.elements = c.elements.AddRangeToArray(new int[] { SKILL.mana, 100, SKILL.controlmana, 100, SKILL.casting, 100 });
+			if (baseChara.id == "putty") {
+				c.elements.AddItem(FEAT.featSplit);
+				c.elements.AddItem(1);
+			}
 			c.colorMod = 100;
 			c.tiles = tileBase.tiles;
 			c._tiles = tileBase._tiles;
@@ -125,7 +137,11 @@ namespace TpManyPutit
 			c.mainElement = new string[] { "Fire", "Cold", "Lightning", "Darkness", "Mind", "Poison", "Nerve", "Nether", "Sound", "Chaos", "Ether", "Cut", "Acid", "Magic" };
 			c.actCombat = c.actCombat.AddRangeToArray(new string[] { "funnel_/80", "SpSummonTentacle/20", "SpHOT/20/pt" });
 			c.lightData = "wisp";
-			c.elements = c.elements.AddRangeToArray(new int[] { SKILL.mana, 200, FEAT.featSplit, 1, SKILL.evasionPerfect, 20, SKILL.controlmana, 100, SKILL.casting, 100, FEAT.featMilitant, 1 });
+			c.elements = c.elements.AddRangeToArray(new int[] { SKILL.mana, 200, SKILL.evasionPerfect, 20, SKILL.controlmana, 100, SKILL.casting, 100, FEAT.featMilitant, 1 });
+			if (baseChara.id == "putty") {
+				c.elements.AddItem(FEAT.featSplit);
+				c.elements.AddItem(1);
+			}
 			c.colorMod = 100;
 			c.tiles = tileBase.tiles;
 			c._tiles = tileBase._tiles;
@@ -143,7 +159,11 @@ namespace TpManyPutit
 			c.tag = c.tag.AddRangeToArray(new string[] { "kamikaze" });
 			c.actCombat = c.actCombat.AddRangeToArray(new string[] { "ActSuicide/100" });
 			c.lightData = "wisp";
-			c.elements = c.elements.AddRangeToArray(new int[] { SKILL.mana, 100, FEAT.featSplit, 1, SKILL.evasionPerfect, 20, SKILL.controlmana, 100, SKILL.casting, 100, FEAT.featGolem, 1 });
+			c.elements = c.elements.AddRangeToArray(new int[] { SKILL.mana, 100, SKILL.evasionPerfect, 20, SKILL.controlmana, 100, SKILL.casting, 100, FEAT.featGolem, 1 });
+			if (baseChara.id == "putty") {
+				c.elements.AddItem(FEAT.featSplit);
+				c.elements.AddItem(1);
+			}
 			c.colorMod = 100;
 			c.tiles = tileBase.tiles;
 			c._tiles = tileBase._tiles;
@@ -163,7 +183,11 @@ namespace TpManyPutit
 			c.mainElement = new string[] { "Fire", "Cold", "Lightning", "Darkness", "Mind", "Poison", "Nerve", "Nether", "Sound", "Chaos", "Ether", "Cut", "Acid", "Magic" };
 			c.actCombat = c.actCombat.AddRangeToArray(new string[] { "hand_/80", "ActRush/20", "SpRevive" });
 			c.lightData = "wisp";
-			c.elements = c.elements.AddRangeToArray(new int[] { SKILL.life, 50, SKILL.mana, 100, FEAT.featSplit, 1, SKILL.PDR, 40, SKILL.EDR, 40, SKILL.controlmana, 100, SKILL.casting, 100, FEAT.featLoyal, 1 });
+			c.elements = c.elements.AddRangeToArray(new int[] { SKILL.life, 50, SKILL.mana, 100, SKILL.PDR, 40, SKILL.EDR, 40, SKILL.controlmana, 100, SKILL.casting, 100, FEAT.featLoyal, 1 });
+			if (baseChara.id == "putty") {
+				c.elements.AddItem(FEAT.featSplit);
+				c.elements.AddItem(1);
+			}
 			c.colorMod = 100;
 			c.tiles = tileBase.tiles;
 			c._tiles = tileBase._tiles;
@@ -181,7 +205,11 @@ namespace TpManyPutit
 			c.mainElement = new string[] { "Fire", "Cold", "Lightning", "Darkness", "Mind", "Poison", "Nerve", "Nether", "Sound", "Chaos", "Ether", "Cut", "Acid", "Magic" };
 			c.actCombat = c.actCombat.AddRangeToArray(new string[] { "SpBane/50", "arrow_/50", "SpSilence/20" });
 			c.lightData = "wisp";
-			c.elements = c.elements.AddRangeToArray(new int[] { SKILL.mana, 100, FEAT.featSplit, 1, SKILL.evasionPerfect, 20, SKILL.controlmana, 100, SKILL.casting, 100 });
+			c.elements = c.elements.AddRangeToArray(new int[] { SKILL.mana, 100, SKILL.evasionPerfect, 20, SKILL.controlmana, 100, SKILL.casting, 100 });
+			if (baseChara.id == "putty") {
+				c.elements.AddItem(FEAT.featSplit);
+				c.elements.AddItem(1);
+			}
 			c.colorMod = 100;
 			c.tiles = tileBase.tiles;
 			c._tiles = tileBase._tiles;
@@ -199,7 +227,11 @@ namespace TpManyPutit
 			c.mainElement = new string[] { "Fire", "Cold", "Lightning", "Darkness", "Mind", "Poison", "Nerve", "Nether", "Sound", "Chaos", "Ether", "Cut", "Acid", "Magic" };
 			c.actCombat = c.actCombat.AddRangeToArray(new string[] { "ActCurse/100", "miasma_/100", "SpWeakness/100", "SpSpeedDown/100" });
 			c.lightData = "wisp";
-			c.elements = c.elements.AddRangeToArray(new int[] { SKILL.mana, 100, FEAT.featSplit, 1, SKILL.evasionPerfect, 20, SKILL.controlmana, 100, SKILL.casting, 100 });
+			c.elements = c.elements.AddRangeToArray(new int[] { SKILL.mana, 100, SKILL.evasionPerfect, 20, SKILL.controlmana, 100, SKILL.casting, 100 });
+			if (baseChara.id == "putty") {
+				c.elements.AddItem(FEAT.featSplit);
+				c.elements.AddItem(1);
+			}
 			c.colorMod = 100;
 			c.tiles = tileBase.tiles;
 			c._tiles = tileBase._tiles;
