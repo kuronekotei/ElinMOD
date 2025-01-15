@@ -53,6 +53,10 @@
       <HintPath>..\Managed\Plugins.BaseCore.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Plugins.UI">
+      <HintPath>..\Managed\Plugins.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Reflex">
       <HintPath>..\Managed\Reflex.dll</HintPath>
       <Private>False</Private>
@@ -75,6 +79,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ModConfig.cs" />
+    <Compile Include="ModConfigUi.cs" />
     <Compile Include="Mod_StackableTool.cs" />
     <Compile Include="StackableTool.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
