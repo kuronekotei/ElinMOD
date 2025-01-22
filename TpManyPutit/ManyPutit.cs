@@ -286,7 +286,7 @@ namespace TpManyPutit
 			c.LV += 30;
 			c.chance = 20;
 			c.job = "inquisitor";
-			c.faith = "lucky";
+			c.faith = "luck";
 			c.tactics = "predator";
 			c.mainElement = new string[] { "Chaos" };
 			c.actCombat = c.actCombat.AddRangeToArray(new string[] { "funnel_/100", "ActGazeInsane/50", "SpBane/40" });

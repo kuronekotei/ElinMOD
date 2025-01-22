@@ -60,6 +60,7 @@ namespace TpMagicAppendix
 				nameof(Source_MagicAppendix.TpCreateWind),
 				nameof(Source_MagicAppendix.TpForceOvulation),
 				nameof(Source_MagicAppendix.TpForceMilking),
+				nameof(Source_MagicAppendix.TpCultivate),
 				nameof(Source_MagicAppendix.TpForceSqueeze),
 				nameof(Source_MagicAppendix.TpBrainwash),
 			};

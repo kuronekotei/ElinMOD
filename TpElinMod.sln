@@ -29,7 +29,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpLongSightInHome", "TpLong
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpFreeDomain", "TpFreeDomain\TpFreeDomain.csproj", "{7E078794-9090-4DBB-9587-49ABFB3BBE25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpBadLuckRace", "TpBadLuckRace\TpBadLuckRace.csproj", "{433F8FB9-21C1-4D16-9AB7-29667427026B}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpPopulation", "TpMaxPopulation\TpPopulation.csproj", "{43C27DBD-E1C0-43A7-BFCD-D424F25BAD79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpArtifact", "TpArtifact\TpArtifact.csproj", "{C24373AD-9B34-4EAF-BEDC-7D084AC82E85}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpAnyStethoscope", "TpAnyStethoscope\TpAnyStethoscope.csproj", "{285D18F6-0C51-4D54-9D81-E0FABB20789F}"
 EndProject
@@ -62,6 +66,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpGoodLand", "TpGoodLand\TpGoodLand.csproj", "{A64D52C3-E186-4F04-ADFC-56D7AFB88088}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpStackableAging", "TpStackableAging\TpStackableAging.csproj", "{CB6B1371-9423-4903-A836-6A6A360D4266}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目", "ソリューション項目", "{418AB21E-5F57-45EF-9329-965E5FEA0B49}"
+	ProjectSection(SolutionItems) = preProject
+		HTMLPage1.html = HTMLPage1.html
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,10 +130,18 @@ Global
 		{7E078794-9090-4DBB-9587-49ABFB3BBE25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E078794-9090-4DBB-9587-49ABFB3BBE25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E078794-9090-4DBB-9587-49ABFB3BBE25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{433F8FB9-21C1-4D16-9AB7-29667427026B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433F8FB9-21C1-4D16-9AB7-29667427026B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433F8FB9-21C1-4D16-9AB7-29667427026B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433F8FB9-21C1-4D16-9AB7-29667427026B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{43C27DBD-E1C0-43A7-BFCD-D424F25BAD79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{43C27DBD-E1C0-43A7-BFCD-D424F25BAD79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43C27DBD-E1C0-43A7-BFCD-D424F25BAD79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43C27DBD-E1C0-43A7-BFCD-D424F25BAD79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C24373AD-9B34-4EAF-BEDC-7D084AC82E85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C24373AD-9B34-4EAF-BEDC-7D084AC82E85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C24373AD-9B34-4EAF-BEDC-7D084AC82E85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C24373AD-9B34-4EAF-BEDC-7D084AC82E85}.Release|Any CPU.Build.0 = Release|Any CPU
 		{285D18F6-0C51-4D54-9D81-E0FABB20789F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{285D18F6-0C51-4D54-9D81-E0FABB20789F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{285D18F6-0C51-4D54-9D81-E0FABB20789F}.Release|Any CPU.ActiveCfg = Release|Any CPU

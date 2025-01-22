@@ -107,7 +107,7 @@ public class TraitTpCatsNote : TraitItem
 		foreach (var plan in plans) {
 			if (plan.category == "policy") {
 				if (!branch.policies.HasPolicy(plan.id) ){
-					branch.elements.Learn(plan.id);
+					branch.policies.AddPolicy(plan.id);
 				}
 				var ele = branch.elements.GetElement(plan.alias);
 				if (ele.CanGainExp && ele.ValueWithoutLink > 0 && ele.ValueWithoutLink < 100) {

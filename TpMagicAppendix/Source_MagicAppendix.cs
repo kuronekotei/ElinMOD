@@ -32,6 +32,7 @@ namespace TpMagicAppendix
 				TpCreateWind(SpTeleport),
 				TpForceOvulation(SpTeleport),
 				TpForceMilking(SpTeleport),
+				TpCultivate(SpTeleport),
 				TpForceSqueeze(SpTeleport),
 				TpBrainwash(SpTeleport),
 				TpEternalForceBlizzard(SpTeleport),

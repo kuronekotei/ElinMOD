@@ -50,7 +50,8 @@ namespace TpAfCatsGoods
 			c.name = "Cat's Claw";
 			c.unknown = "cat paw";
 			c.tiles = new int[] { 1013 };
-			c.defMat = "!void";
+			c.defMat = "void";
+			c.fixedMaterial = true;
 			c.value = 1000000;
 			c.tag = new string[] { "noShop" };
 			c.LV = 50;
@@ -76,7 +77,8 @@ namespace TpAfCatsGoods
 			c.name = "Cat's Tail";
 			c.unknown = "fluffy wand";
 			c.tiles = new int[] { 1114 };
-			c.defMat = "!obsidian";
+			c.defMat = "obsidian";
+			c.fixedMaterial = true;
 			c.value = 1000000;
 			c.tag = new string[] { "noShop" };
 			c.LV = 50;
@@ -103,7 +105,8 @@ namespace TpAfCatsGoods
 			c.name = "Cat's Kinked Tail";
 			c.unknown = "fluffy wand";
 			c.tiles = new int[] { 1114 };
-			c.defMat = "!obsidian";
+			c.defMat = "obsidian";
+			c.fixedMaterial = true;
 			c.value = 1000000;
 			c.tag = new string[] { "noShop" };
 			c.LV = 50;
@@ -132,7 +135,8 @@ namespace TpAfCatsGoods
 			c.name = "Cat's Note";
 			c.unknown = "Cute Note";
 			c.tiles = new int[] { 1712 };
-			c.defMat = "!obsidian";
+			c.defMat = "obsidian";
+			c.fixedMaterial = true;
 			c.value = 1000000;
 			c.tag = new string[] { "noShop" };
 			c.LV = 50;
@@ -160,7 +164,8 @@ namespace TpAfCatsGoods
 			c._tiles = new int[] { 908 };
 			c.altTiles = new int[] { 1406 };
 			c._altTiles = new int[] { 909 };
-			c.defMat = "!mithril";
+			c.defMat = "mithril";
+			c.fixedMaterial = true;
 			c.value = 1000000;
 			c.tag = new string[] { "noShop" };
 			c.LV = 50;
@@ -184,7 +189,8 @@ namespace TpAfCatsGoods
 			c.unknown_JP = "艶やかなヒゲ";
 			c.naming = "";
 			c.name = "Cat's Whisker";
-			c.defMat = "!obsidian";
+			c.defMat = "obsidian";
+			c.fixedMaterial = true;
 			c.value = 1000000;
 			c.tag = new string[] { "noShop" };
 			c.LV = 50;
@@ -212,7 +218,8 @@ namespace TpAfCatsGoods
 			c._tiles = new int[] { 1308 };
 			c.altTiles = new int[] {  };
 			c._altTiles = new int[] {  };
-			c.defMat = "!obsidian";
+			c.defMat = "obsidian";
+			c.fixedMaterial = true;
 			c.value = 1000000;
 			c.tag = new string[] { "noShop" };
 			c.LV = 50;
