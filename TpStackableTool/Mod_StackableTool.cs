@@ -12,8 +12,11 @@ namespace TpStackableTool
 	[BepInPlugin("net.kuronekotei.stackable_tool", "StackableTool", "1.0.0.0")]
 	public class Mod_StackableTool : BaseUnityPlugin
 	{
+		public static ModConfig ModConfig;
+
 		private void Awake() {
 			new Harmony("StackableTool").PatchAll();
+			ModConfig = new ModConfig(this.Config);
 		}
 	}
 }

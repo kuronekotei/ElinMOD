@@ -7,10 +7,16 @@
 	<description>
 		The number of uses of charged tools can now be stacked
 		(stethoscope, lockpick, blanket, love)
+		Only the blanket has a splitting half. (Any number request not accepted)
 
 		チャージ型ツールの使用回数がスタック可能になります
 		(聴診器、ロックピック、ブランケット, 愛の鞭)
+		ブランケットだけ分割機能が付きましたが、半分にしかできなくしてあります。
+
+
+		設定ファイル追加しました。扱い方は雰囲気で察してください。
+		世の中には自動で設定画面作ってくれるModもあるそうです。
 	</description>
 	<tags>QoL,Item</tags>
-	<version>0.23.46</version>
+	<version>0.23.75</version>
 </Meta>
