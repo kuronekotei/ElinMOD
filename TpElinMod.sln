@@ -74,6 +74,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpCheatBackpack", "TpCheatBackpack\TpCheatBackpack.csproj", "{57FC0232-28D2-49F2-A749-12EDB538095B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpSuperBlackMarket", "TpSuperBlackMarket\TpSuperBlackMarket.csproj", "{1027E114-4B54-483B-BC65-B94340F19A7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -212,6 +214,10 @@ Global
 		{57FC0232-28D2-49F2-A749-12EDB538095B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57FC0232-28D2-49F2-A749-12EDB538095B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57FC0232-28D2-49F2-A749-12EDB538095B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1027E114-4B54-483B-BC65-B94340F19A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1027E114-4B54-483B-BC65-B94340F19A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1027E114-4B54-483B-BC65-B94340F19A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1027E114-4B54-483B-BC65-B94340F19A7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
