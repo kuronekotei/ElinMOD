@@ -76,6 +76,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpCheatBackpack", "TpCheatB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpSuperBlackMarket", "TpSuperBlackMarket\TpSuperBlackMarket.csproj", "{1027E114-4B54-483B-BC65-B94340F19A7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpHugeMailPost", "TpHugeMailPost\TpHugeMailPost.csproj", "{AFD6B77B-19D5-4BFB-9EF7-41FB84FD0A99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -218,6 +220,10 @@ Global
 		{1027E114-4B54-483B-BC65-B94340F19A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1027E114-4B54-483B-BC65-B94340F19A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1027E114-4B54-483B-BC65-B94340F19A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFD6B77B-19D5-4BFB-9EF7-41FB84FD0A99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD6B77B-19D5-4BFB-9EF7-41FB84FD0A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD6B77B-19D5-4BFB-9EF7-41FB84FD0A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD6B77B-19D5-4BFB-9EF7-41FB84FD0A99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
