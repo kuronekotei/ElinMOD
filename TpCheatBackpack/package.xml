@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+	<title>TpCheatBackpack</title>
+	<id>tp_cheat_backpack</id>
+	<author>TP@黒猫亭</author>
+	<loadPriority>100</loadPriority>
+	<description>
+		The contents of backpack will not decay and no weight.
+
+		バックパックの中身は腐らず、重さもなくなります。
+
+		設定ファイルあります。扱い方は雰囲気で察してください。
+		世の中には自動で設定画面作ってくれるModもあるそうです。
+	</description>
+	<tags>Cheat,Item</tags>
+	<version>0.23.82</version>
+</Meta>
