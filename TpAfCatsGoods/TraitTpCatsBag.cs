@@ -27,7 +27,7 @@ public class TraitTpCatsBag : TraitMagicChest
 
 	public override int DecaySpeedChild => 0;
 
-	public override bool CanSearchContents => true;
+	public override bool CanSearchContent => true;
 
 	public override void SetName(ref string s) {
 	}
