@@ -32,6 +32,8 @@ namespace TpMagicIndex
 					case "eleEther":
 					case "eleAcid":
 					case "eleCut":
+					case "eleImpact":
+					//case "eleVoid":
 						DomainRewrite(ele);
 						break;
 					case "puddle_":
@@ -50,7 +52,17 @@ namespace TpMagicIndex
 					case "puddle_Ether":
 					case "puddle_Acid":
 					case "puddle_Cut":
-						SetChance(ele, 100);
+					case "puddle_Impact":
+					//case "ball_Void":
+					//case "breathe_Void":
+					//case "bolt_Void":
+					//case "hand_Void":
+					//case "arrow_Void":
+					//case "funnel_Void":
+					//case "miasma_Void":
+					//case "weapon_Void":
+					//case "puddle_Void":
+						SetChance(ele, 20);
 						AddBook(ele);
 						break;
 					case "SpWish":
@@ -84,13 +96,23 @@ namespace TpMagicIndex
 					case "SpReconstruction":
 					case "SpSummonPawn":
 					case "SpDrawBacker":
+					case "SpSummonYeek":
+					case "SpSummonOrc":
+					case "SpBreath":
+					case "SpBerserk":
+					case "SpTransmuteCat":
+					case "SpSummonFish":
+					case "SpSummonTako":
+					case "SpSummonShubKid":
+					case "SpSummonTidalWave":
 						AddBook(ele);
 						break;
 				}
 			}
+
 		}
 		public static void DomainRewrite(SourceElement.Row ele) {
-			string[] domainSpell = { "arrow", "hand", "bolt", "ball", "miasma", "funnel", "weapon", "breathe", "puddle" };
+			string[] domainSpell = { "arrow", "hand", "bolt", "ball", "miasma", "funnel", "weapon", "breathe", "puddle", "sword" };
 			ele.tag.AddToArray("rewite");
 			foreach (string word in domainSpell) {
 				if (!ele.tag.Contains(word)) {
