@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+	<title>TpLoginBonus</title>
+	<id>tp_login_bonus</id>
+	<author>TP@黒猫亭</author>
+	<loadPriority>100</loadPriority>
+	<description>
+		LoginBonus.
+
+		ログインボーナス。
+		リアル1日に1通届きます。メールシステムを使うため、ゲーム内での日付変更も必要です。
+	</description>
+	<tags>General,Item</tags>
+	<version>0.23.84</version>
+</Meta>
