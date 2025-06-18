@@ -15,12 +15,14 @@ namespace TpStackableTool
 		public ConfigEntry<bool> IsStack_blanketCold { get; set; }
 		public ConfigEntry<bool> IsStack_whipLove { get; set; }
 		public ConfigEntry<bool> IsStack_whipInterest { get; set; }
+		public ConfigEntry<bool> IsStack_whipEgg { get; set; }
 		public ConfigEntry<bool> CanSplit_stethoscope { get; set; }
 		public ConfigEntry<bool> CanSplit_lockpick { get; set; }
 		public ConfigEntry<bool> CanSplit_blanketFire { get; set; }
 		public ConfigEntry<bool> CanSplit_blanketCold { get; set; }
 		public ConfigEntry<bool> CanSplit_whipLove { get; set; }
 		public ConfigEntry<bool> CanSplit_whipInterest { get; set; }
+		public ConfigEntry<bool> CanSplit_whipEgg { get; set; }
 
 
 		public ModConfig(ConfigFile config) {
@@ -30,6 +32,7 @@ namespace TpStackableTool
 			IsStack_blanketCold = config.Bind("Toggle", "IsStack_blanketCold", true, "IsStack_blanketCold.");
 			IsStack_whipLove = config.Bind("Toggle", "IsStack_whipLove", true, "IsStack_whipLove.");
 			IsStack_whipInterest = config.Bind("Toggle", "IsStack_whipInterest", true, "IsStack_whipInterest.");
+			IsStack_whipEgg = config.Bind("Toggle", "IsStack_whipEgg", true, "IsStack_whipEgg.");
 
 			CanSplit_stethoscope = config.Bind("Toggle", "CanSplit_stethoscope", false, "CanSplit_stethoscope.");
 			CanSplit_lockpick = config.Bind("Toggle", "CanSplit_lockpick", false, "CanSplit_lockpick.");
@@ -37,6 +40,7 @@ namespace TpStackableTool
 			CanSplit_blanketCold = config.Bind("Toggle", "CanSplit_blanketCold", true, "CanSplit_blanketCold.");
 			CanSplit_whipLove = config.Bind("Toggle", "CanSplit_whipLove", false, "CanSplit_whipLove.");
 			CanSplit_whipInterest = config.Bind("Toggle", "CanSplit_whipInterest", false, "CanSplit_whipInterest.");
+			CanSplit_whipEgg = config.Bind("Toggle", "CanSplit_whipEgg", false, "CanSplit_whipEgg.");
 		}
 	}
 }

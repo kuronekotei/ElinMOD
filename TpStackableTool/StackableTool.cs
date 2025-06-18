@@ -31,6 +31,7 @@ namespace TpStackableTool
 					case "blanket_cold": isStack = config.IsStack_blanketCold.Value; break;
 					case "whip_love": isStack = config.IsStack_whipLove.Value; break;
 					case "whip_interest": isStack = config.IsStack_whipInterest.Value; break;
+					case "whip_egg": isStack = config.IsStack_whipEgg.Value; break;
 					default:
 						return true;
 				}
@@ -68,7 +69,8 @@ namespace TpStackableTool
 				case "blanket_fire": isStack = config.CanSplit_blanketFire.Value; break;
 				case "blanket_cold": isStack = config.CanSplit_blanketCold.Value; break;
 				case "whip_love": isStack = config.CanSplit_whipLove.Value; break;
-				case "whip_interest": isStack = config.CanSplit_whipInterest.Value; break; 
+				case "whip_interest": isStack = config.CanSplit_whipInterest.Value; break;
+				case "whip_egg": isStack = config.CanSplit_whipEgg.Value; break;
 				default:
 					return ;
 			}
